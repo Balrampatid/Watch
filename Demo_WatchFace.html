@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body{
+            background-color: rgb(39, 39, 39);
+            color: white;
+        }
+        #buttons{
+            color: black;
+            
+            padding-left:600px ;
+            
+        }
+        .w{
+            background-color: rgb(147, 82, 82);
+            color: white;
+            width: 113px;
+            height: 70px;
+            font-size: xx-large;
+            border: 3px solid black;
+            border-radius: 10px;
+        }
+        .w:hover{
+            background-color: green;
+            color: black;
+        }
+        .o{
+            background-color: rgb(147, 82, 82);
+            color: white;
+            width: 113px;
+            height: 70px;
+            font-size: xx-large;
+            border: 3px solid black;
+            border-radius: 10px;
+        }
+        .o:hover{
+            background-color: yellow;
+            color: black;
+        }
+        .t{
+            background-color: rgb(147, 82, 82);
+            color: white;
+            width: 113px;
+            height: 70px;
+            font-size: xx-large;
+            border: 3px solid black;
+            border-radius: 10px;
+        }
+        .t:hover{
+            background-color: red;
+            color: black;
+        }
+            
+            #stopwatch{
+                            font-size: 100px;
+                            margin-left: 590px;
+                            margin-top: 250px;
+                            color: black;
+                            border: 6px solid rgb(45, 27, 27);
+                            border-radius: 20px;
+                            width: 355px;
+                            border-right-color: black;
+                            border-right-style: groove;
+                            border-bottom-color: black;
+                            border-bottom-style: groove;
+                            border-top-color: rgb(58, 37, 37);
+                            border-top-style: groove;
+                            border-left-style:  rgb(58, 37, 37);
+                            border-left-style: groove;
+                        
+                        
+                }
+            
+            
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div id="stopwatch">
+            00:00:00
+        </div>
+        <div id="buttons">
+            <button class="w" onclick="startTimer()">Start</button>
+            <button class="t" onclick="stopTimer()">Pause</button>
+            <button class="o" onclick="resetTimer()">Reset</button>
+        </div>
+    </div>
+    <script src="watch.js"></script>
+</body>
+</html>
